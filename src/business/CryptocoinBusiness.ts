@@ -1,17 +1,9 @@
 export class CryptocoinBusiness {
-  public getAllCoins = async () => {
+  public getAllCoins = async () => {};
 
-  }
+  public createCoin = async () => {};
 
-  public createCoin = async () => {
+  public editCoin = async () => {};
 
-  }
-
-  public editCoin = async () => {
-
-  }
-
-  public deleteCoin = async () => {
-
-  }
+  public deleteCoin = async () => {};
 }
