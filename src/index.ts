@@ -22,7 +22,7 @@ app.get('/cryptocoins', cryptocoinController.getAllCoins)
 app.post('/cryptocoins', cryptocoinController.createCoin)
 
 // PUT /cryptocoins/:id
-app.put('/cryptocoins', cryptocoinController.editCoin)
+app.put('/cryptocoins/:id', cryptocoinController.editCoin)
 
 // DELETE /cryptocoins/:id
-app.delete('/cryptocoins', cryptocoinController.deleteCoin)
+app.delete('/cryptocoins/:id', cryptocoinController.deleteCoin)
