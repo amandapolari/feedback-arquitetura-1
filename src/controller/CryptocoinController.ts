@@ -1,14 +1,12 @@
-import { Request, Response } from 'express';
-import { CryptocoinBusiness } from '../business/CryptocoinBusiness';
+
+import { Request, Response } from "express";
+import { CryptocoinBusiness } from "../business/CryptocoinBusiness";
+
 
 export class CryptocoinController {
-  public getAllCoins = async () => {
+  public getAllCoins = async () => {};
 
-  }
-
-  public createCoin = async () => {
-
-  }
+  public createCoin = async () => {};
 
   public editCoin = async (req: Request, res: Response) => {
     try{
@@ -37,7 +35,14 @@ export class CryptocoinController {
 }
 }
 
-  public deleteCoin = async () => {
 
-  }
+      if (error instanceof Error) {
+        res.send(error.message);
+      } else {
+        res.send("Erro inesperado");
+      }
+    }
+  };
+
+  public deleteCoin = async () => {};
 }

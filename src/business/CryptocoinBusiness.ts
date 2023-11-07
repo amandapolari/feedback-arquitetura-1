@@ -3,6 +3,7 @@ import AllCoins from "../models/AllCoins"
 import AllCoinsDB from "../types"
 
 export class CryptocoinBusiness {
+
   public getAllCoins = async (input: any) => {
     const { q } = input
 
@@ -21,15 +22,10 @@ export class CryptocoinBusiness {
 
 
 
-  public createCoin = async () => {
+  public createCoin = async () => {}
+  
+  public editCoin = async () => {}
 
-  }
 
-  public editCoin = async () => {
-
-  }
-
-  public deleteCoin = async () => {
-
-  }
+  public deleteCoin = async () => {};
 }
