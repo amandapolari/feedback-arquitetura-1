@@ -5,15 +5,19 @@ export class CryptocoinDatabase extends BaseDatabase {
 
   }
 
+  public findCoinById = async () => {
+
+  }
+
   public insertCoin = async () => {
 
   }
 
-  public updateCoin = async () => {
+  public updateCoinById = async () => {
 
   }
 
-  public deleteCoin = async () => {
+  public deleteCoinById = async () => {
 
   }
 }
