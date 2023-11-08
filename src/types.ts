@@ -1,8 +1,8 @@
-// interface CryptocoinsDB
+// interface CryptocoinDB
 
-export interface CryptocoinsDB {
+export interface CryptocoinDB {
     id: string;
     name: string;
     acronym: string;
-    priceInDollars: number;
+    price_in_dollars: number;
 }
